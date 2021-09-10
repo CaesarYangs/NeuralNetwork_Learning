@@ -43,7 +43,6 @@ imdb_model.add(layers.Dense(16,activation='relu'))
 # imdb_model.add(layers.Dense(2,activation='relu'))
 imdb_model.add(layers.Dense(1,activation='sigmoid'))
 
-
 #
 
 #编译模型
