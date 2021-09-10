@@ -46,8 +46,6 @@ imdb_model.add(layers.Dense(1,activation='sigmoid'))
 
 #
 
-
-
 #编译模型
 imdb_model.compile(optimizer='rmsprop',loss='binary_crossentropy',metrics=['accuracy'])
 
